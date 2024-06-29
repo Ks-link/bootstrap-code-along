@@ -18,3 +18,11 @@ html {
 		justify-content: center !important;
 	}
 }	
+
+/* Links
+--------------------------------------------- */
+
+a:focus {
+	border: 1px solid #000 !important;
+}
+
