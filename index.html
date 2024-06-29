@@ -52,14 +52,17 @@
 
         <!-- This is the main site content -->
         <section class="col-md-8" data-bs-spy="scroll" data-bs-target="#sidebar" data-offset="0">
-          <h1 id="home">Welcome to Bootstrap!</h1>
 
+          <h1>Welcome to Bootstrap!</h1>
+
+          <!-- Begin code demo section -->
+          <hr>
           <article id="code-demo" class="mb-5">
             <h2 class="py-4">Code Demo</h2>
 
+            <!-- Code demo content wrapper - for border -->
 
-            <!-- begin lists code along -->
-
+            <!-- begin lists code -->
             <div class="border p-3">
               <h3 class="border-bottom">Lists</h3>
               <p>Let's style this list!</p>
@@ -81,8 +84,7 @@
             </div>
 
 
-            <!-- Begin flexbox code along -->
-
+            <!-- Begin flexbox code -->
             <div class="border p-3">
               <h3 class="border-bottom">Flexboxes</h3>
               <p>Bootstrap even has default styles for everyone's favourite: flexboxes! <br>For more information on
@@ -90,52 +92,49 @@
                   target="_blank">bootstrap
                   documentation</a></p>
 
+              <h4 class="pt-4 pb-2">Lets Test it Out!</h4>
+
               <!-- Justify Content demo -->
               <div class="bg-dark-subtle d-flex mb-3 ">
                 <div class="p-2 bg-warning-subtle border">Justify</div>
                 <div class="p-2 bg-warning-subtle border">Content</div>
-                <div class="p-2 bg-warning-subtle border">Center</div>
+                <div class="p-2 bg-warning-subtle border">Evenly</div>
               </div>
 
               <!-- Flex Grow demo -->
-              <div class="bg-dark-subtle mb-3 d-flex ">
+              <div class="bg-dark-subtle mb-3 d-flex">
                 <div class="bg-warning-subtle border p-2 ">Let me grow!</div>
-                <div class="bg-warning-subtle border p-2">Flex item</div>
-                <div class="bg-warning-subtle border p-2">Flex item but longer</div>
+                <div class="bg-warning-subtle border p-2">Item 1</div>
+                <div class="bg-warning-subtle border p-2">Item 2</div>
               </div>
 
               <!-- Wrap demo -->
               <div class="bg-dark-subtle mb-3 d-flex ">
-                <div class="p-2 bg-warning-subtle border">Wrap me 1</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 2</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 3</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 4</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 5</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 6</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 7</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 8</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 9</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 10</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 11</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 12</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 13</div>
-                <div class="p-2 bg-warning-subtle border">Wrap me 14</div>
+                <div class="p-2 bg-warning-subtle border w-100">Wrap me 1</div>
+                <div class="p-2 bg-warning-subtle border w-100">Wrap me 2</div>
+                <div class="p-2 bg-warning-subtle border w-100">Wrap me 3</div>
+                <div class="p-2 bg-warning-subtle border w-100">Wrap me 4</div>
+                <div class="p-2 bg-warning-subtle border w-100">Wrap me 5</div>
               </div>
             </div>
 
+
             <!-- Begin buttons code along -->
 
-            <div class="border p-3" id="buttons">
-              <h3 class="border-bottom">Button</h3>
-              <p class="mt-4">Bootstrap 5 provides different styles of buttons <a
-                  href="https://getbootstrap.com/docs/4.0/components/buttons/" target="_blank">More information
-                </a></p>
-              <p>Here is the basic buttons without bootstrap</p>
-              <!-- Here is default button without bootstrap class -->
-              <div class="container mt-3">
-                <button type="button" class="">Basic</button>
-                <a href="#buttons" class=" -outline-secondary">Secondary</a>
-                <input type="submit" class=" btn-primary" value="Submit Button"></input>
+            <div class="border p-3">
+              <div id="buttons">
+                <h3 class="border-bottom">Button</h3>
+                <p class="mt-4">Bootstrap 5 provides different styles of buttons <a
+                    href="https://getbootstrap.com/docs/4.0/components/buttons/" target="_blank">More information
+                  </a></p>
+                <p>Here is the basic buttons without bootstrap</p>
+
+                <!-- Here is default button without bootstrap class -->
+                <div class="container mt-3">
+                  <button type="button" class="">Basic</button>
+                  <a href="#buttons" class=" -outline-secondary">Secondary</a>
+                  <input type="submit" class=" btn-primary" value="Submit Button">
+                </div>
               </div>
 
               <!-- buttons demo -->
@@ -143,13 +142,15 @@
               <div class="container mt-3">
                 <button type="button" class="">Basic</button>
                 <a href="#buttons" class=" -outline-secondary">Secondary</a>
-                <input type="submit" class=" btn-primary" value="Submit Button"></input>
+                <input type="submit" class=" btn-primary" value="Submit Button">
               </div>
+            </div>
+
           </article>
         </section>
-
       </div>
     </div>
+
   </main>
 
   <footer class="my-3">
